@@ -17,17 +17,19 @@ h1, h2 {
 
 button.donut {
     padding: 3px;
-    border-style: ridge;
     border-radius: 40%;
+    border: 3px outset;
     height: 80px;
     width: 80px;
     cursor: pointer;
 }
 
 button.donut:hover {
-    border: 1px solid #fff;
-    height: 82px;
-    width: 82;
+    box-shadow: 8px 8px 26px 6px #f9e05f;
+}
+
+button.donut:active {
+    border: 3px inset;
 }
 
 .donut img {
@@ -39,20 +41,21 @@ button.donut:hover {
     width: 200px;
 }
 
-/* #dog-head #tail {
+#dog, #tail {
     display: inline-block;
-} */
+} 
 
-/* #tail {
-    width: 400px;
-} */
+#tail img {
+    height: 210px;
+    margin-left: -40px;
+}
 
 .part {
     display: inline-block;
     height: 80px;
     width: 80px;
     border-radius: 100%;
-    margin-left: -16px;
+    margin-left: -20px;
     margin-bottom: 50px;
     box-sizing: border-box;
     border: 26px solid;
