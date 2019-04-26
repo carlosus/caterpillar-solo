@@ -26,6 +26,8 @@ button.donut {
 
 button.donut:hover {
     border: 1px solid #fff;
+    height: 82px;
+    width: 82;
 }
 
 .donut img {
@@ -47,29 +49,28 @@ button.donut:hover {
 
 .part {
     display: inline-block;
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
     border-radius: 100%;
-    margin-left: -12px;
-    margin-bottom: 56px;
-    border-block-end-width: 9px;
+    margin-left: -16px;
+    margin-bottom: 50px;
     box-sizing: border-box;
-    /* border: 15px solid; */
+    border: 26px solid;
 }
 
 .purple-donut {
-    background: #a061f7;
+    color: #a061f7;
 }
 .pink-donut {
-    background: #f95fb5;
+    color: #f95fb5;
 }
 .yellow-donut {
-    background: #f9e05f;
+    color: #f9e05f;
 }
 .blue-donut {
-    background: #61f7db;
+    color: #61f7db;
 }
 .green-donut {
-    background: #86f761;
+    color: #86f761;
 }
 
