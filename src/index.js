@@ -13,3 +13,4 @@ for(let i = 0; donutButtons.length; i++) {
         addDonut(dog, donutButton.value);
     });
 } 
+
