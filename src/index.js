@@ -4,6 +4,7 @@ import addDonut from './add-donut.js';
 //get needed DOM elements
 const donutButtons = document.querySelectorAll('.donut');
 const dog = document.getElementById('dog');
+const resetButton = document.getElementById('reset-button');
 
 //initialize things
 for(let i = 0; donutButtons.length; i++) {
@@ -14,3 +15,7 @@ for(let i = 0; donutButtons.length; i++) {
     });
 } 
 
+//wiring up listening event and button removal
+resetButton.addEventListener('click', () => {
+    dog.innerHTML = '';
+});
